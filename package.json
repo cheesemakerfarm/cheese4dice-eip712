@@ -1,0 +1,35 @@
+{
+  "name": "@dice4cheese/eip712",
+  "version": "1.0.0",
+  "description": "EIP 712 implementation",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project .",
+    "test": "mocha ./lib/test/**/*.js"
+  },
+  "keywords": [
+    "EIP712",
+    "signTypedData"
+  ],
+  "author": "dicether",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.2",
+    "eth-sig-util": "^1.4.2",
+    "ethereumjs-abi": "^0.6.5",
+    "ethereumjs-util": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/ethereumjs-util": "^5.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
